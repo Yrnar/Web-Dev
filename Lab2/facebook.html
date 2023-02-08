@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook - log in or sign up</title>
+
+<style>
+        
+    body{
+    background: rgb(240,242,245);
+    color: rgb(28,30,33);
+    font-family: Helvetica, Arial, sans-serif;
+
+    }
+#fbok1{
+    background-color: #f0f2f5;
+    line-height: 1.34;
+    padding-bottom: 165px;
+    position: relative;
+    top: -7px;
+}
+#fpic{
+    height: 106px;
+    position: relative;
+    right: 6%;
+    top: 12%;
+}
+
+#textf{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.polstr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 8em;
+}
+#f1{
+    position: relative;
+    left: 3.5%;
+}
+#login{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 396px;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: relative;
+    right: 4.5em;
+
+}
+
+
+.butt{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    border: none;
+    color: white;
+    padding: 0 16px;
+}
+.newAcc{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+}
+.newAcc:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+#Dannye{
+    color: #1c1e21;
+    text-align: center;
+    font-family: inherit;
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5px;
+    top: 5px;
+
+}
+.input{
+    font-size: 17px;
+    width: 334px;
+    padding: 14px 16px;
+    color: #1d2129;
+    margin: 6px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    opacity: 60%;
+}
+.enter{
+    font-size: 20px;
+    width: 365px;
+    background-color: #166fe5;
+    font-weight: bold;
+    position: relative;
+    top: 11px;
+    right: 3px;
+}
+.enter:link{
+    background-color: #365899;
+    border-color: #365899;
+}
+#zabil{
+
+    align-self: center;
+    width: 90%;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #dadde1;
+    position: relative;
+    top: 23px;
+}
+#zabil:hover {
+    text-decoration: underline;
+}
+#make-page{
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 85px;
+}
+#make-page-link{
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+#make-page-link:hover{
+    text-decoration: underline;
+}
+#curve {
+
+border-bottom: 1px solid #dddfe2;
+position: relative;
+left: 8px;
+bottom: 7px;
+}
+.ssyl{
+
+flex-wrap: wrap;
+justify-content: flex-start;
+width: 90%;
+bottom: 16px;
+}
+
+
+
+.greytime{
+position: relative;
+top: 360px;
+left: 302px;
+font-size: 11px;
+color: #737373;
+line-height: 200%;
+background-color:white;
+
+padding-top:20px;
+padding-bottom:100%;
+padding-left:10px;
+
+
+
+}
+
+    a.ssyl {
+        color:grey;
+    text-decoration: none; 
+   } 
+   a:hover.ssyl { 
+    text-decoration: underline; 
+   } 
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="fbok1">
+    <div class="polstr">
+        <div id="f1">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="fpic" id="fpic">
+            <p id="textf">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div id="login">
+            <div id="Dannye">
+                <input type="email" placeholder="Электронный адрес или номер телефона" class="input">
+                <input type="password" placeholder="Пароль" class="input">
+            </div>
+
+            <a href="https://ru-ru.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc1MzE1NjQyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"><input type="submit" VALUE="Вход" class="enter butt"></a>
+
+            <a href="https://ru-ru.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" id="zabil">Забыли пароль?</a>
+            <a href="https://ru-ru.facebook.com/"><button class="butt newAcc">Создать новый аккаунт</button></a>
+            <p id="make-page"><a href="https://ru-ru.facebook.com/pages/create/?ref_type=registration_form" id="make-page-link">Создать страницу</a>  знаменитости, музыкальной группы или компании.</p>
+
+        </div>
+    </div>
+
+    <div class="greytime"><div>
+        <p>&nbsp;&nbsp;&nbsp;Русский
+          <a class="ssyl" dir="ltr" href="https://www.facebook.com/" itle="English (US)">English (US)</a>
+          <a class="ssyl" dir="ltr" href="https://tr-tr.facebook.com/"  title="Turkish">&nbsp;&nbsp;Türkçe</a>
+          <a class="ssyl" dir="ltr" href="https://id-id.facebook.com/"  title="Indonesian">&nbsp;&nbsp;Bahasa Indonesia</a>
+          <a class="ssyl" dir="ltr" href="https://zh-cn.facebook.com/"  title="Simplified Chinese (China)">&nbsp;&nbsp;中文(简体)</a>
+          <a class="ssyl" dir="ltr" href="https://kk-kz.facebook.com/"  title="Kazakh">&nbsp;&nbsp;Қазақша</a>
+          <a class="ssyl" dir="ltr" href="https://de-de.facebook.com/"  title="German">&nbsp;&nbsp;Deutsch</a>
+          <a class="ssyl" dir="ltr" href="https://ko-kr.facebook.com/"  title="Korean">&nbsp;&nbsp;한국어</a>
+          <a class="ssyl" dir="ltr" href="https://sq-al.facebook.com/"  title="Albanian">&nbsp;&nbsp;Shqip</a>
+          <a class="ssyl" dir="ltr" href="https://es-la.facebook.com/"  title="Spanish">&nbsp;&nbsp;Español</a>
+          <a class="ssyl" dir="ltr" href="https://pt-br.facebook.com/"  title="Portuguese (Brazil)">&nbsp;&nbsp;Português (Brasil)</a>
+          <a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fpt-br.facebook.com%2F&amp;source=www_list_selector_more" href="#" title="Ещё языки" tabindex="0"><i class="img sp_h4Swrc8tiWJ sx_8ed39e"></i></a></p>
+      
+      </div>
+      <div id="curve"></div>   
+      
+      <div id="end-links" role="contentinfo" aria-label="Ссылки Facebook">
+          <p><a class="ssyl" href="/reg/" title="Регистрация на Facebook">&nbsp;&nbsp;&nbsp;Регистрация</a>
+          <a class="ssyl" href="/login/" title="Войдите на Facebook">&nbsp;&nbsp;&nbsp;Вход</a>
+          <a class="ssyl" href="https://messenger.com/" title="Оцените Messenger.">&nbsp;&nbsp;&nbsp;Messenger</a>
+          <a class="ssyl" href="/lite/" title="Facebook Lite для Android.">&nbsp;&nbsp;&nbsp;Facebook Lite</a>
+          <a class="ssyl" href="https://ru-ru.facebook.com/watch/" title="Посмотреть наши видео на Facebook Watch.">&nbsp;&nbsp;&nbsp;Watch</a>
+          <a class="ssyl" href="/places/" title="Ознакомьтесь с популярными местами на Facebook.">&nbsp;&nbsp;&nbsp;Места</a>
+          <a class="ssyl" href="/games/" title="Познакомьтесь с играми на Facebook.">&nbsp;&nbsp;&nbsp;Игры</a>
+          <a class="ssyl" href="/marketplace/" title="Покупайте и продавайте через Facebook Marketplace.">&nbsp;&nbsp;&nbsp;Marketplace</a>
+          <a class="ssyl" href="https://pay.facebook.com/" title="Подробнее о Meta Pay" target="_blank">&nbsp;&nbsp;&nbsp;Meta&nbsp;Pay</a>
+          <a class="ssyl" href="https://www.oculus.com/" title="Подробнее об Oculus" target="_blank">&nbsp;&nbsp;&nbsp;Oculus</a>
+          <a class="ssyl" href="https://portal.facebook.com/" title="Узнайте больше о Facebook Portal" target="_blank">&nbsp;&nbsp;&nbsp;Portal</a>
+          <a class="ssyl" href="https://www.instagram.com/" title="Попробуйте Instagram" target="_blank" rel="noopener nofollow" data-lynx-mode="asynclazy" data-lynx-uri="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT0h3VxrDliPFsA8SvggAxkn0YvrSL99ZAZHQTSHj0ohFR-fJ00IZUJK_BMA4IsUZOmaTgp9grge1T3PaXTg-8xx2b2GmOgogxmyPpaV1qUFrH9R97pe8ZVQFGceUL62MtOeHzgK0ho24C_JQzkDug">Instagram</a>
+          <a class="ssyl" href="https://www.bulletin.com/" title="Посмотреть рассылку Bulletin">&nbsp;&nbsp;&nbsp;Bulletin</a><br>
+          <a class="ssyl" href="/fundraisers/" title="Пожертвовать в поддержку общественно значимых дел">&nbsp;&nbsp;&nbsp;Благотворительные акции</a>
+          <a class="ssyl" href="/biz/directory/" title="Посмотреть наш каталог &quot;Сервисы Facebook&quot;.">&nbsp;&nbsp;&nbsp;Услуги</a>
+          <a class="ssyl" href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D" title="Перейти в Центр информации о выборах.">&nbsp;&nbsp;&nbsp;Центр информации о выборах</a>
+          <a class="ssyl" href="/privacy/policy/?entry_point=facebook_page_footer" title="Узнайте, как мы собираем, используем и передаем информацию, чтобы обеспечить работу Facebook.">&nbsp;&nbsp;&nbsp;Политика конфиденциальности</a>
+          <a class="ssyl" href="/privacy/center/?entry_point=facebook_page_footer" title="Узнайте, как управлять настройками конфиденциальности на Facebook.">&nbsp;&nbsp;&nbsp;Центр конфиденциальности</a>
+          <a class="ssyl" href="/groups/explore/" title="Интересные группы.">&nbsp;&nbsp;&nbsp;Группы</a>
+          <a class="ssyl" href="https://about.meta.com/" accesskey="8" title="Прочтите наш блог, ознакомьтесь с материалами, найдите  вакансии.">Информация</a><br>
+          <a class="ssyl" href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto" title="Реклама на  Facebook.">&nbsp;&nbsp;&nbsp;Создать рекламу</a>
+          <a class="ssyl" href="/pages/create/?ref_type=site_footer" title="Создать Страницу">&nbsp;&nbsp;&nbsp;Создать Страницу</a>
+          <a class="ssyl" href="https://developers.facebook.com/?ref=pf" title="Развивайтесь на нашей платформе.">&nbsp;&nbsp;&nbsp;Разработчикам</a>
+          <a class="ssyl" href="/careers/?ref=pf" title="Сделайте следующий шаг в карьере в нашей отличной компании.">&nbsp;&nbsp;&nbsp;Вакансии</a>
+          <a class="ssyl" href="/policies/cookies/" title="Узнайте больше о cookies и Facebook." data-nocookies="1">&nbsp;&nbsp;&nbsp;Файлы cookie</a>
+          <a class="ssyl" href="https://www.facebook.com/help/568137493302217" title="Подробнее о выборе рекламы.">&nbsp;&nbsp;&nbsp;Рекламные предпочтения</a>
+          <a data-nocookies="1" class="ssyl" href="/policies?ref=pf" accesskey="9" title="Просмотрите наши условия и правила.">&nbsp;&nbsp;&nbsp;Условия использования</a>
+          <a class="ssyl" href="/help/?ref=pf" accesskey="0" title="Посетите наш Справочный центр.">&nbsp;&nbsp;&nbsp;Справка</a><br>
+          <a class="ssyl" href="help/637205020878504" title="Прочитайте наше Уведомление о загрузке контактов и лицах, не являющихся пользователями.">&nbsp;&nbsp;&nbsp;Загрузка контактов и лица, не являющиеся пользователями</a>
+      
+      
+      
+          <div id="meta"><div><span> &nbsp;&nbsp;&nbsp;Meta © 2023</span></div></div>
+      </div>
+      
+      
+      </div>
+</body>
+</html>
