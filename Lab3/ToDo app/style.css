@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+td1{
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    padding: 1px 50px;
+}
+
+
+
+header{
+    margin-bottom: 10px;
+}
+
+.osnova{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 44%;
+    margin-bottom: 62px;
+}
+#osnova-submit{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 9px;
+}
+#osnova-input{
+    width: 75%;
+    padding: 4px;
+    margin-left: 60px;
+}
+#osnova-form{
+    display: flex;
+}
+
+
+input{
+    border-radius: 4px;
+    border-width: 1px;
+}
+h1{
+    font-weight: 480;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.td2{
+    background-color:rgba(0, 0, 0, 0.87);
+    color:grey;
+    font-size:53px;
+    margin: auto;
+
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.task-list-style{
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 4px;
+
+}
+
+.text{
+    border: none;
+    outline: none;
+    appearance: none;
+    margin-left: 14%;
+}
+.delete{
+    margin-left: 520px;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+button{
+    background: none;
+    border: none;
+}
